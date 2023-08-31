@@ -1,0 +1,1 @@
+127.0.0.1 - - [31/Aug/2023:00:01:39 -0500] "HEAD /rest-app/bookservice/getbooks HTTP/1.1" 200 -
