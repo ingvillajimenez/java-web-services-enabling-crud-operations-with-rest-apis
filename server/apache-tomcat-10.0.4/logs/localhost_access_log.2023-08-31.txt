@@ -1,1 +1,13 @@
 127.0.0.1 - - [31/Aug/2023:00:01:39 -0500] "HEAD /rest-app/bookservice/getbooks HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2023:18:09:12 -0500] "GET /rest-api/bookservice/getbooks HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [31/Aug/2023:18:09:46 -0500] "GET /rest-api/bookservice/getbooks HTTP/1.1" 404 788
+127.0.0.1 - - [31/Aug/2023:18:12:44 -0500] "GET /rest-app/bookservice/getbooks HTTP/1.1" 200 506
+0:0:0:0:0:0:0:1 - - [31/Aug/2023:18:12:55 -0500] "GET /rest-app/bookservice/getbooks HTTP/1.1" 200 506
+127.0.0.1 - - [31/Aug/2023:18:35:23 -0500] "GET /rest-app/bookservice/getbook/ISBN105 HTTP/1.1" 200 107
+0:0:0:0:0:0:0:1 - - [31/Aug/2023:18:35:54 -0500] "GET /rest-app/bookservice/getbook/ISBN105 HTTP/1.1" 200 107
+127.0.0.1 - - [31/Aug/2023:18:37:15 -0500] "GET /rest-app/bookservice/getbook/ISBN101 HTTP/1.1" 200 103
+127.0.0.1 - - [31/Aug/2023:18:38:30 -0500] "GET /rest-app/bookservice/getbook/ISBN155 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [31/Aug/2023:18:39:12 -0500] "GET /rest-app/bookservice/getbook/ISBN155 HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2023:18:49:58 -0500] "GET /rest-app/bookservice/getbook/ISBN102 HTTP/1.1" 200 94
+127.0.0.1 - - [31/Aug/2023:18:50:53 -0500] "GET /rest-app/bookservice/getbook/ISBN115 HTTP/1.1" 404 74
+127.0.0.1 - - [31/Aug/2023:18:51:57 -0500] "HEAD /rest-app/bookservice/getbook/ISBN115 HTTP/1.1" 404 -

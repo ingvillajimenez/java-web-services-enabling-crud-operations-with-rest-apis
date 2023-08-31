@@ -1,0 +1,95 @@
+31-Aug-2023 18:04:49.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.4
+31-Aug-2023 18:04:49.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2021 11:07:15 UTC
+31-Aug-2023 18:04:49.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.4.0
+31-Aug-2023 18:04:49.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Aug-2023 18:04:49.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+31-Aug-2023 18:04:49.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+31-Aug-2023 18:04:49.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home
+31-Aug-2023 18:04:49.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.1+9
+31-Aug-2023 18:04:49.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2023 18:04:49.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4
+31-Aug-2023 18:04:49.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4
+31-Aug-2023 18:04:49.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2023 18:04:49.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2023 18:04:49.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2023 18:04:49.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/conf/logging.properties
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4
+31-Aug-2023 18:04:49.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4
+31-Aug-2023 18:04:49.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/temp
+31-Aug-2023 18:04:49.082 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/juan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Aug-2023 18:04:49.364 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Aug-2023 18:04:49.390 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [553] milliseconds
+31-Aug-2023 18:04:49.430 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Aug-2023 18:04:49.430 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.4]
+31-Aug-2023 18:04:49.449 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war]
+31-Aug-2023 18:04:50.509 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2023 18:04:51.149 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAX-B API not found . WADL feature is disabled.
+31-Aug-2023 18:04:51.782 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war] has finished in [2,333] ms
+31-Aug-2023 18:04:51.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/docs]
+31-Aug-2023 18:04:51.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/docs] has finished in [20] ms
+31-Aug-2023 18:04:51.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/manager]
+31-Aug-2023 18:04:51.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/manager] has finished in [42] ms
+31-Aug-2023 18:04:51.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/examples]
+31-Aug-2023 18:04:52.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/examples] has finished in [278] ms
+31-Aug-2023 18:04:52.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/ROOT]
+31-Aug-2023 18:04:52.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/ROOT] has finished in [20] ms
+31-Aug-2023 18:04:52.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/host-manager]
+31-Aug-2023 18:04:52.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/host-manager] has finished in [24] ms
+31-Aug-2023 18:04:52.179 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Aug-2023 18:04:52.194 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2803] milliseconds
+31-Aug-2023 18:05:22.205 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/rest-app]
+31-Aug-2023 18:05:22.237 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war]
+31-Aug-2023 18:05:23.323 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2023 18:05:23.826 WARNING [Catalina-utility-2] org.glassfish.jersey.server.wadl.WadlFeature.configure JAX-B API not found . WADL feature is disabled.
+31-Aug-2023 18:05:24.370 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war] has finished in [2,132] ms
+31-Aug-2023 18:33:25.185 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/rest-app]
+31-Aug-2023 18:33:25.204 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [rest-app] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Aug-2023 18:33:25.205 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [rest-app] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.1/java.lang.Object.wait(Native Method)
+ java.base@13.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@13.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@13.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@13.0.1/java.lang.Thread.run(Thread.java:830)
+31-Aug-2023 18:33:25.219 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war]
+31-Aug-2023 18:33:26.133 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2023 18:33:26.642 WARNING [Catalina-utility-1] org.glassfish.jersey.server.wadl.WadlFeature.configure JAX-B API not found . WADL feature is disabled.
+31-Aug-2023 18:33:27.191 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war] has finished in [1,972] ms
+31-Aug-2023 18:33:28.978 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1421)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1039)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:830)
+31-Aug-2023 18:48:27.605 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/rest-app]
+31-Aug-2023 18:48:27.623 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [rest-app] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Aug-2023 18:48:27.624 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [rest-app] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.1/java.lang.Object.wait(Native Method)
+ java.base@13.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@13.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@13.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@13.0.1/java.lang.Thread.run(Thread.java:830)
+31-Aug-2023 18:48:27.638 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war]
+31-Aug-2023 18:48:28.588 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2023 18:48:29.031 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1421)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1039)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:830)
+31-Aug-2023 18:48:29.083 WARNING [Catalina-utility-2] org.glassfish.jersey.server.wadl.WadlFeature.configure JAX-B API not found . WADL feature is disabled.
+31-Aug-2023 18:48:29.624 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/juan/code/skillsoft/java-novice-to-javanista/track-3-javanista/java-web-services-enabling-crud-operations-with-rest-apis/server/apache-tomcat-10.0.4/webapps/rest-app.war] has finished in [1,985] ms

@@ -60,6 +60,34 @@ public class BookDAO {
         }
         return list;
     }
+
+    public static Book getBookById(String book_id) {
+
+        try {
+
+            Connection myDB = getConnection();
+            PreparedStatement ps = myDB.prepareStatement("select * from books where book_id=?");
+            ps.setString(1, book_id);
+            ResultSet rs = ps.executeQuery();
+
+
+            if (rs.next()) {
+
+                Book book = new Book();
+
+                book.setId(rs.getString("book_id"));
+                book.setBookTitle(rs.getString("book_title"));
+                book.setAuthorName(rs.getString("book_author"));
+                book.setBookPrice(rs.getFloat("book_price"));
+
+                return book;
+            }
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return null;
+    }
 }
 
 // Jq download link
