@@ -20,3 +20,5 @@
 127.0.0.1 - - [31/Aug/2023:22:41:40 -0500] "PUT /rest-app/bookservice/updatebook HTTP/1.1" 202 92
 127.0.0.1 - - [31/Aug/2023:22:43:29 -0500] "GET /rest-app/bookservice/getbook/ISBN106 HTTP/1.1" 200 92
 127.0.0.1 - - [31/Aug/2023:22:47:44 -0500] "PUT /rest-app/bookservice/updatebook HTTP/1.1" 404 72
+127.0.0.1 - - [31/Aug/2023:23:55:53 -0500] "HEAD /rest-app/bookservice/getbook/ISBN106 HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2023:23:59:24 -0500] "GET /rest-app/bookservice/getbook/ISBN102 HTTP/1.1" 200 94

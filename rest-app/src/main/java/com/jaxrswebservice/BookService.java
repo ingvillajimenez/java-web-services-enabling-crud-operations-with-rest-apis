@@ -5,8 +5,9 @@ import com.applicationentities.Book; // class Book
 import jakarta.ws.rs.GET; // @interface GET
 import jakarta.ws.rs.POST; // @interface POST
 import jakarta.ws.rs.PUT; // @interface PUT
+import jakarta.ws.rs.DELETE; // @interface DELETE
 import jakarta.ws.rs.Path; // @interface Path
-import jakarta.ws.rs.PathParam; // @interace PathParam
+import jakarta.ws.rs.PathParam; // @interface PathParam
 import jakarta.ws.rs.Produces; // @interface Produces
 import jakarta.ws.rs.Consumes; // @interface Consumes
 import jakarta.ws.rs.core.MediaType; // class MediaType
@@ -89,6 +90,28 @@ public class BookService {
         }
 
         return Response.status(Response.Status.ACCEPTED).entity(book).build();
+    }
+
+    @DELETE
+    @Path("/deletebook/{param}")
+    @Produces({MediaType.APPLICATION_JSON, MediaType.TEXT_PLAIN})
+    public Response deleteBook(@PathParam("param") String bookId) {
+
+        String deleteMsg = BookDAO.removeBook(bookId);
+
+        if (deleteMsg.startsWith("Error")) {
+
+            String jsonResponse = "{\"error\": \"The book could not be removed.\"," +
+                    "\"message\": \"" + deleteMsg + "\"}";
+
+            return Response.status(Response.Status.NOT_FOUND)
+                    .entity(jsonResponse)
+                    .build();
+        }
+
+        return Response.status(Response.Status.ACCEPTED)
+                .entity("Book deleted. ID: " + bookId)
+                .build();
     }
  }
 

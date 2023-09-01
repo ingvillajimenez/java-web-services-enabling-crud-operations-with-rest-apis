@@ -147,6 +147,32 @@ public class BookDAO {
         System.out.println("Returning response message: " + responseMessage);
         return responseMessage;
     }
+
+    public static String removeBook(String book_id) {
+
+        int status = 0;
+        String responseMessage = "";
+
+        try {
+            Connection myDB = getConnection();
+            PreparedStatement ps = myDB.prepareStatement("delete from books where book_id=?");
+            ps.setString(1, book_id);
+
+            status = ps.executeUpdate();
+
+            String successMsg = "Success : " + book_id;
+            String errorMsg = "Error : " + book_id;
+
+            responseMessage = (status == 1) ? successMsg : errorMsg;
+
+        } catch (Exception e) {
+            System.out.println(e);
+            responseMessage = "Error: " + e.getMessage();
+        }
+
+        System.out.println("Returning response message: " + responseMessage);
+        return responseMessage;
+    }
 }
 
 // Jq download link
