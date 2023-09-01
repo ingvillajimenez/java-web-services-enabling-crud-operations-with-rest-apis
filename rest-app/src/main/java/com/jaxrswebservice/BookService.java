@@ -4,6 +4,7 @@ import com.applicationdao.BookDAO; // class BookDAO
 import com.applicationentities.Book; // class Book
 import jakarta.ws.rs.GET; // @interface GET
 import jakarta.ws.rs.POST; // @interface POST
+import jakarta.ws.rs.PUT; // @interface PUT
 import jakarta.ws.rs.Path; // @interface Path
 import jakarta.ws.rs.PathParam; // @interace PathParam
 import jakarta.ws.rs.Produces; // @interface Produces
@@ -67,6 +68,27 @@ public class BookService {
         }
 
         return Response.status(Response.Status.CREATED).entity(book).build();
+    }
+
+    @PUT
+    @Path("/updatebook")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response updateBook(Book book) {
+
+        String updateMsg = BookDAO.updateBook(book);
+
+        if (updateMsg.startsWith("Error")) {
+
+            String jsonResponse = "{\"error\": \"The book could not be located.\"," +
+                    "\"message\": \"" + updateMsg + "\"}";
+
+            return Response.status(Response.Status.NOT_FOUND)
+                    .entity(jsonResponse)
+                    .build();
+        }
+
+        return Response.status(Response.Status.ACCEPTED).entity(book).build();
     }
  }
 
